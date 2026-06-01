@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/tresca-core"
+    "crates/tresca-render"
+    "creates/tresca-physics"
+    "crates/tresca-structural"
+    "crates/tresca-app"
+]
+
+[package]
+name = "Tresca"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
