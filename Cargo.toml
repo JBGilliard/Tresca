@@ -1,10 +1,10 @@
 [workspace]
 resolver = "2"
 members = [
-    "crates/tresca-core"
-    "crates/tresca-render"
-    "creates/tresca-physics"
-    "crates/tresca-structural"
+    "crates/tresca-core",
+    "crates/tresca-render",
+    "crates/tresca-physics",
+    "crates/tresca-structural",
     "crates/tresca-app"
 ]
 
@@ -13,10 +13,12 @@ version = "0.1.0"
 edition = "2024"
 license = "Apache-2.0"
 repository = "https://github.com/jbgilliard/Tresca"
+authors = ["jbgilliard"]
+rust-version = "1.85"
 
 [workspace.dependencies]
 # Graphics
-wpgu = "23"
+wgpu = "23"
 winit = "0.30"
 bytemuck = {version = "1.21", features = ["derive"]}
 glam = {version = "0.30", features = ["bytemuck"]}
@@ -36,7 +38,7 @@ anyhow = "1"
 tresca-core = {path = "crates/tresca-core"}
 tresca-render = {path = "crates/tresca-render"}
 tresca-physics = {path = "crates/tresca-physics"}
-trsca-structural = {path = "crates/tresca-structural"}
+tresca-structural = {path = "crates/tresca-structural"}
 
 [profile.dev]
 opt-level = 1

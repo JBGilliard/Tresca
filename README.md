@@ -18,7 +18,7 @@ Tresca is built as a serious computational mechanics + real-time graphics engine
 
 ## Building
 
-Requires Rust 1.85 or later and a GPU supporting Vulkan, Metal, or DirectX 12.
+Requires Rust 1.96 or later and a GPU supporting Vulkan, Metal, or DirectX 12.
 
 ```bash
 git clone https://github.com/jbgilliard/tresca
