@@ -20,6 +20,7 @@ rust-version = "1.85"
 # Graphics
 wgpu = "23"
 winit = "0.30"
+pollster = "0.3"
 bytemuck = {version = "1.21", features = ["derive"]}
 glam = {version = "0.30", features = ["bytemuck"]}
 
@@ -27,6 +28,10 @@ glam = {version = "0.30", features = ["bytemuck"]}
 nalgebra = "0.33"
 rayon = "1.10"
 ahash = "0.8"
+
+# Serialisation
+serde = {version = "1", features = ["derive"]}
+toml = "0.8"
 
 #Diagnostics
 tracing = "0.1"
